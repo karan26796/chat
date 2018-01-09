@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/list_item"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_smaller"
+    android:foreground="?attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_profile_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/nameInitials"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:paddingTop="@dimen/padding_small"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:text="@string/action_settings" />
+
+    <TextView
+        android:id="@+id/userProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/user_profile_image"
+        android:paddingEnd="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:text="Name"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userProfileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userProfileName"
+        android:layout_toEndOf="@+id/user_profile_image"
+        android:paddingEnd="3dp"
+        android:paddingStart="3dp"
+        android:paddingTop="3dp"
+        android:text="Email"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/options_button"
+        style="@style/OverFlowButton"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginStart="@dimen/margin_small"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

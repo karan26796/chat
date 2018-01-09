@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Example@123.com</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_pass">Forgot Password?</string>
+
+    <string name="toast_registration_success">Successfully Registered.</string>
+    <string name="toast_signUp_failure">Sign up failed.</string>
+    <string name="toast_verification_email_sent">Sign up failed.</string>
+    <string name="toast_signIn_failure">Authentication failed.</string>
+    <string name="toast_signIn_success">Success</string>
+    <string name="toast_signIn_again_request">Please Sign in again</string>
+    <string name="toast_password_change_success">Password Successfully Changed</string>
+    <string name="toast_password_change_failed">Password Change Failed</string>
+    <string name="toast_empty_email">\"Enter Email\"</string>
+    <string name="toast_password_reset_email">Password reset email sent</string>
+
+    <string name="register_progress_dialog_title">Please wait &#8230; </string>
+    <string name="register_progress_dialog_message">Registering new user</string>
+
+    <string name="email_error">Enter Email</string>
+    <string name="password_error">Enter Password</string>
+    <string name="name_error">Enter Name</string>
+    <string name="new_password_enter_error">Enter new Password</string>
+    <string name="empty_email_error">Enter Email</string>
+    <string name="logging_in">Logging In</string>
+    <string name="select_picture">Select A Picture</string>
+
+</resources>
